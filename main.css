@@ -96,8 +96,11 @@ h1, h2, h3, h4, h5, h6, p{
 /********************** Header styling *********************/
 
 .header{
+    background-image: url('images/blog3.jpg');
+    background-position: center;
+    background-size: auto;
     min-height: 100vh;
-    background: linear-gradient(rgba(10, 8, 8, 0.6), rgba(0, 0, 0, 0.6)), url("images/header.jpg") center/cover no-repeat;
+    /* background: linear-gradient(rgba(10, 8, 8, 0.6), rgba(0, 0, 0, 0.6)), url("images/header.jpg") center/cover no-repeat; */
     color: #fff;
 }
 .top-nav a{
